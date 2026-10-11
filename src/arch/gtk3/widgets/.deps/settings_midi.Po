@@ -1,0 +1,5 @@
+settings_midi.o: settings_midi.c /usr/include/stdc-predef.h \
+ ../../../../src/vice.h ../../../../src/config.h
+/usr/include/stdc-predef.h:
+../../../../src/vice.h:
+../../../../src/config.h:

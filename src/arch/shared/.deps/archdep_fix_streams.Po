@@ -1,0 +1,6 @@
+archdep_fix_streams.o: archdep_fix_streams.c /usr/include/stdc-predef.h \
+ ../../../src/vice.h ../../../src/config.h archdep_fix_streams.h
+/usr/include/stdc-predef.h:
+../../../src/vice.h:
+../../../src/config.h:
+archdep_fix_streams.h:

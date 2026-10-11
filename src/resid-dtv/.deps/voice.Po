@@ -1,0 +1,9 @@
+voice.o: voice.cc /usr/include/stdc-predef.h voice.h residdtv-config.h \
+ siddtvdefs.h wave.h bittrain.h envelope.h
+/usr/include/stdc-predef.h:
+voice.h:
+residdtv-config.h:
+siddtvdefs.h:
+wave.h:
+bittrain.h:
+envelope.h:

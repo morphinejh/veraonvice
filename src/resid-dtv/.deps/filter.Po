@@ -1,0 +1,6 @@
+filter.o: filter.cc /usr/include/stdc-predef.h filter.h residdtv-config.h \
+ siddtvdefs.h
+/usr/include/stdc-predef.h:
+filter.h:
+residdtv-config.h:
+siddtvdefs.h:

@@ -1,0 +1,5 @@
+archdep_glob.o: archdep_glob.c /usr/include/stdc-predef.h \
+ ../../../src/vice.h ../../../src/config.h
+/usr/include/stdc-predef.h:
+../../../src/vice.h:
+../../../src/config.h:

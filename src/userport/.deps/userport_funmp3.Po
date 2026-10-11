@@ -1,0 +1,5 @@
+userport_funmp3.o: userport_funmp3.c /usr/include/stdc-predef.h \
+ ../../src/vice.h ../../src/config.h
+/usr/include/stdc-predef.h:
+../../src/vice.h:
+../../src/config.h:

@@ -1,0 +1,5 @@
+vic20-midi.o: vic20-midi.c /usr/include/stdc-predef.h ../../../src/vice.h \
+ ../../../src/config.h
+/usr/include/stdc-predef.h:
+../../../src/vice.h:
+../../../src/config.h:

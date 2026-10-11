@@ -1,0 +1,5 @@
+clockport-mp3at64.o: clockport-mp3at64.c /usr/include/stdc-predef.h \
+ ../../../src/vice.h ../../../src/config.h
+/usr/include/stdc-predef.h:
+../../../src/vice.h:
+../../../src/config.h:

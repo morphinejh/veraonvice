@@ -1,0 +1,7 @@
+wave.o: wave.cc /usr/include/stdc-predef.h wave.h residdtv-config.h \
+ siddtvdefs.h bittrain.h
+/usr/include/stdc-predef.h:
+wave.h:
+residdtv-config.h:
+siddtvdefs.h:
+bittrain.h:

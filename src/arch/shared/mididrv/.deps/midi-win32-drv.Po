@@ -1,0 +1,5 @@
+midi-win32-drv.o: midi-win32-drv.c /usr/include/stdc-predef.h \
+ ../../../../src/vice.h ../../../../src/config.h
+/usr/include/stdc-predef.h:
+../../../../src/vice.h:
+../../../../src/config.h:

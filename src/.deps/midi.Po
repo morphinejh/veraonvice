@@ -1,0 +1,4 @@
+midi.o: midi.c /usr/include/stdc-predef.h vice.h config.h
+/usr/include/stdc-predef.h:
+vice.h:
+config.h:

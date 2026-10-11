@@ -1,0 +1,5 @@
+midi-osx-drv.o: midi-osx-drv.c /usr/include/stdc-predef.h \
+ ../../../../src/vice.h ../../../../src/config.h
+/usr/include/stdc-predef.h:
+../../../../src/vice.h:
+../../../../src/config.h:

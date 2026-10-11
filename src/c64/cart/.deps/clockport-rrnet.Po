@@ -1,0 +1,5 @@
+clockport-rrnet.o: clockport-rrnet.c /usr/include/stdc-predef.h \
+ ../../../src/vice.h ../../../src/config.h
+/usr/include/stdc-predef.h:
+../../../src/vice.h:
+../../../src/config.h:

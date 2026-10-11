@@ -1,0 +1,5 @@
+c64-midi.o: c64-midi.c /usr/include/stdc-predef.h ../../../src/vice.h \
+ ../../../src/config.h
+/usr/include/stdc-predef.h:
+../../../src/vice.h:
+../../../src/config.h:

@@ -1,0 +1,372 @@
+rsuser.o: rsuser.c /usr/include/stdc-predef.h ../../src/vice.h \
+ ../../src/config.h /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h ../../src/alarm.h \
+ ../../src/types.h ../../src/vice.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h ../../src/cmdline.h \
+ ../../src/joyport/joyport.h ../../src/snapshot.h ../../src/types.h \
+ ../../src/log.h ../../src/maincpu.h ../../src/mainlock.h \
+ ../../src/arch/gtk3/archdep.h ../../src/sound.h \
+ ../../src/arch/shared/archdep_unix.h ../../src/arch/shared/archapi.h \
+ ../../src/arch/shared/archdep_defs.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ ../../src/arch/shared/archdep_access.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ ../../src/arch/shared/archdep_boot_path.h \
+ ../../src/arch/shared/archdep_cbmfont.h \
+ ../../src/arch/shared/archdep_chdir.h \
+ ../../src/arch/shared/archdep_close.h \
+ ../../src/arch/shared/archdep_create_user_cache_dir.h \
+ ../../src/arch/shared/archdep_create_user_config_dir.h \
+ ../../src/arch/shared/archdep_create_user_state_dir.h \
+ ../../src/arch/shared/archdep_current_dir.h \
+ ../../src/arch/shared/archdep_default_autostart_disk_image_file_name.h \
+ ../../src/arch/shared/archdep_default_fliplist_file_name.h \
+ ../../src/arch/shared/archdep_default_joymap_file_name.h \
+ ../../src/arch/shared/archdep_default_logfile.h \
+ ../../src/arch/shared/archdep_default_logger.h \
+ ../../src/arch/shared/archdep_default_portable_resource_file_name.h \
+ ../../src/arch/shared/archdep_default_resource_file_name.h \
+ ../../src/arch/shared/archdep_default_rtc_file_name.h \
+ ../../src/arch/shared/archdep_default_sysfile_pathlist.h \
+ ../../src/arch/shared/archdep_dir.h \
+ ../../src/arch/shared/archdep_ethernet_available.h \
+ ../../src/arch/shared/archdep_exit.h \
+ ../../src/arch/shared/archdep_expand_path.h \
+ ../../src/arch/shared/archdep_extra_title_text.h \
+ ../../src/arch/shared/archdep_fdopen.h \
+ ../../src/arch/shared/archdep_file_exists.h \
+ ../../src/arch/shared/archdep_file_is_blockdev.h \
+ ../../src/arch/shared/archdep_file_is_chardev.h \
+ ../../src/arch/shared/archdep_file_size.h \
+ ../../src/arch/shared/archdep_filename_parameter.h \
+ ../../src/arch/shared/archdep_fix_permissions.h \
+ ../../src/arch/shared/archdep_fix_streams.h \
+ ../../src/arch/shared/archdep_fseeko.h \
+ ../../src/arch/shared/archdep_ftello.h \
+ ../../src/arch/shared/archdep_get_current_drive.h \
+ ../../src/arch/shared/archdep_get_runtime_info.h \
+ ../../src/arch/shared/archdep_get_vice_datadir.h \
+ ../../src/arch/shared/archdep_get_vice_docsdir.h \
+ ../../src/arch/shared/archdep_get_vice_drivesdir.h \
+ ../../src/arch/shared/archdep_get_vice_hotkeysdir.h \
+ ../../src/arch/shared/archdep_get_vice_machinedir.h \
+ ../../src/arch/shared/archdep_getcwd.h \
+ ../../src/arch/shared/archdep_glob.h \
+ ../../src/arch/shared/archdep_home_path.h \
+ ../../src/arch/shared/archdep_icon_path.h \
+ ../../src/arch/shared/archdep_is_haiku.h \
+ ../../src/arch/shared/archdep_is_macos_bindist.h \
+ ../../src/arch/shared/archdep_is_windows_nt.h \
+ ../../src/arch/shared/archdep_kbd_get_host_mapping.h \
+ ../../src/arch/shared/archdep_list_drives.h \
+ ../../src/arch/shared/archdep_make_backup_filename.h \
+ ../../src/arch/shared/archdep_mkdir.h \
+ ../../src/arch/shared/archdep_mkstemp_fd.h \
+ ../../src/arch/shared/archdep_network.h \
+ ../../src/arch/shared/archdep_open_default_log_file.h \
+ ../../src/arch/shared/archdep_path_is_relative.h \
+ ../../src/arch/shared/archdep_program_name.h \
+ ../../src/arch/shared/archdep_program_path.h \
+ ../../src/arch/shared/archdep_quote_parameter.h \
+ ../../src/arch/shared/archdep_quote_unzip.h \
+ ../../src/arch/shared/archdep_rawnet_capability.h \
+ ../../src/arch/shared/archdep_real_path.h \
+ ../../src/arch/shared/archdep_remove.h \
+ ../../src/arch/shared/archdep_rename.h \
+ ../../src/arch/shared/archdep_require_vkbd.h \
+ ../../src/arch/shared/archdep_rmdir.h \
+ ../../src/arch/shared/archdep_rtc_get_centisecond.h \
+ ../../src/arch/shared/archdep_sanitize_filename.h \
+ ../../src/arch/shared/archdep_set_current_drive.h \
+ ../../src/arch/shared/archdep_set_openmp_wait_policy.h \
+ ../../src/arch/shared/archdep_signals.h \
+ ../../src/arch/shared/archdep_socketpeek.h \
+ ../../src/arch/shared/archdep_sound.h \
+ ../../src/arch/shared/archdep_spawn.h \
+ ../../src/arch/shared/archdep_startup_log_error.h \
+ ../../src/arch/shared/archdep_stat.h \
+ ../../src/arch/shared/archdep_tick.h \
+ ../../src/arch/shared/archdep_tmpnam.h \
+ ../../src/arch/shared/archdep_user_cache_path.h \
+ ../../src/arch/shared/archdep_user_config_path.h \
+ ../../src/arch/shared/archdep_user_state_path.h \
+ ../../src/arch/shared/archdep_usleep.h \
+ ../../src/arch/shared/archdep_xdg.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/assert.h ../../src/vsyncapi.h ../../src/resources.h rs232.h \
+ rs232drv.h rsuser.h ../../src/userport/userport.h
+/usr/include/stdc-predef.h:
+../../src/vice.h:
+../../src/config.h:
+/usr/include/stdio.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/features.h:
+/usr/include/features-time64.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+../../src/alarm.h:
+../../src/types.h:
+../../src/vice.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h:
+/usr/include/inttypes.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+/usr/include/endian.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/x86_64-linux-gnu/bits/select.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+../../src/cmdline.h:
+../../src/joyport/joyport.h:
+../../src/snapshot.h:
+../../src/types.h:
+../../src/log.h:
+../../src/maincpu.h:
+../../src/mainlock.h:
+../../src/arch/gtk3/archdep.h:
+../../src/sound.h:
+../../src/arch/shared/archdep_unix.h:
+../../src/arch/shared/archapi.h:
+../../src/arch/shared/archdep_defs.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+/usr/include/limits.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/include/linux/limits.h:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+../../src/arch/shared/archdep_access.h:
+/usr/include/unistd.h:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+/usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+../../src/arch/shared/archdep_boot_path.h:
+../../src/arch/shared/archdep_cbmfont.h:
+../../src/arch/shared/archdep_chdir.h:
+../../src/arch/shared/archdep_close.h:
+../../src/arch/shared/archdep_create_user_cache_dir.h:
+../../src/arch/shared/archdep_create_user_config_dir.h:
+../../src/arch/shared/archdep_create_user_state_dir.h:
+../../src/arch/shared/archdep_current_dir.h:
+../../src/arch/shared/archdep_default_autostart_disk_image_file_name.h:
+../../src/arch/shared/archdep_default_fliplist_file_name.h:
+../../src/arch/shared/archdep_default_joymap_file_name.h:
+../../src/arch/shared/archdep_default_logfile.h:
+../../src/arch/shared/archdep_default_logger.h:
+../../src/arch/shared/archdep_default_portable_resource_file_name.h:
+../../src/arch/shared/archdep_default_resource_file_name.h:
+../../src/arch/shared/archdep_default_rtc_file_name.h:
+../../src/arch/shared/archdep_default_sysfile_pathlist.h:
+../../src/arch/shared/archdep_dir.h:
+../../src/arch/shared/archdep_ethernet_available.h:
+../../src/arch/shared/archdep_exit.h:
+../../src/arch/shared/archdep_expand_path.h:
+../../src/arch/shared/archdep_extra_title_text.h:
+../../src/arch/shared/archdep_fdopen.h:
+../../src/arch/shared/archdep_file_exists.h:
+../../src/arch/shared/archdep_file_is_blockdev.h:
+../../src/arch/shared/archdep_file_is_chardev.h:
+../../src/arch/shared/archdep_file_size.h:
+../../src/arch/shared/archdep_filename_parameter.h:
+../../src/arch/shared/archdep_fix_permissions.h:
+../../src/arch/shared/archdep_fix_streams.h:
+../../src/arch/shared/archdep_fseeko.h:
+../../src/arch/shared/archdep_ftello.h:
+../../src/arch/shared/archdep_get_current_drive.h:
+../../src/arch/shared/archdep_get_runtime_info.h:
+../../src/arch/shared/archdep_get_vice_datadir.h:
+../../src/arch/shared/archdep_get_vice_docsdir.h:
+../../src/arch/shared/archdep_get_vice_drivesdir.h:
+../../src/arch/shared/archdep_get_vice_hotkeysdir.h:
+../../src/arch/shared/archdep_get_vice_machinedir.h:
+../../src/arch/shared/archdep_getcwd.h:
+../../src/arch/shared/archdep_glob.h:
+../../src/arch/shared/archdep_home_path.h:
+../../src/arch/shared/archdep_icon_path.h:
+../../src/arch/shared/archdep_is_haiku.h:
+../../src/arch/shared/archdep_is_macos_bindist.h:
+../../src/arch/shared/archdep_is_windows_nt.h:
+../../src/arch/shared/archdep_kbd_get_host_mapping.h:
+../../src/arch/shared/archdep_list_drives.h:
+../../src/arch/shared/archdep_make_backup_filename.h:
+../../src/arch/shared/archdep_mkdir.h:
+../../src/arch/shared/archdep_mkstemp_fd.h:
+../../src/arch/shared/archdep_network.h:
+../../src/arch/shared/archdep_open_default_log_file.h:
+../../src/arch/shared/archdep_path_is_relative.h:
+../../src/arch/shared/archdep_program_name.h:
+../../src/arch/shared/archdep_program_path.h:
+../../src/arch/shared/archdep_quote_parameter.h:
+../../src/arch/shared/archdep_quote_unzip.h:
+../../src/arch/shared/archdep_rawnet_capability.h:
+../../src/arch/shared/archdep_real_path.h:
+../../src/arch/shared/archdep_remove.h:
+../../src/arch/shared/archdep_rename.h:
+../../src/arch/shared/archdep_require_vkbd.h:
+../../src/arch/shared/archdep_rmdir.h:
+../../src/arch/shared/archdep_rtc_get_centisecond.h:
+../../src/arch/shared/archdep_sanitize_filename.h:
+../../src/arch/shared/archdep_set_current_drive.h:
+../../src/arch/shared/archdep_set_openmp_wait_policy.h:
+../../src/arch/shared/archdep_signals.h:
+../../src/arch/shared/archdep_socketpeek.h:
+../../src/arch/shared/archdep_sound.h:
+../../src/arch/shared/archdep_spawn.h:
+../../src/arch/shared/archdep_startup_log_error.h:
+../../src/arch/shared/archdep_stat.h:
+../../src/arch/shared/archdep_tick.h:
+../../src/arch/shared/archdep_tmpnam.h:
+../../src/arch/shared/archdep_user_cache_path.h:
+../../src/arch/shared/archdep_user_config_path.h:
+../../src/arch/shared/archdep_user_state_path.h:
+../../src/arch/shared/archdep_usleep.h:
+../../src/arch/shared/archdep_xdg.h:
+/usr/include/pthread.h:
+/usr/include/sched.h:
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+/usr/include/time.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+/usr/include/assert.h:
+../../src/vsyncapi.h:
+../../src/resources.h:
+rs232.h:
+rs232drv.h:
+rsuser.h:
+../../src/userport/userport.h:

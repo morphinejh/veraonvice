@@ -1,0 +1,5 @@
+pot.o: pot.cc /usr/include/stdc-predef.h pot.h resid-config.h siddefs.h
+/usr/include/stdc-predef.h:
+pot.h:
+resid-config.h:
+siddefs.h:

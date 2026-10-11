@@ -1,0 +1,8 @@
+info.o: info.c /usr/include/stdc-predef.h vice.h config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h info.h infocontrib.h
+/usr/include/stdc-predef.h:
+vice.h:
+config.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+info.h:
+infocontrib.h:

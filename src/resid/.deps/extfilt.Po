@@ -1,0 +1,6 @@
+extfilt.o: extfilt.cc /usr/include/stdc-predef.h extfilt.h resid-config.h \
+ siddefs.h
+/usr/include/stdc-predef.h:
+extfilt.h:
+resid-config.h:
+siddefs.h:

@@ -1,0 +1,7 @@
+envelope.o: envelope.cc /usr/include/stdc-predef.h envelope.h \
+ resid-config.h siddefs.h dac.h
+/usr/include/stdc-predef.h:
+envelope.h:
+resid-config.h:
+siddefs.h:
+dac.h:

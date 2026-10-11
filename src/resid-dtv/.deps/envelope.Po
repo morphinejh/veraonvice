@@ -1,0 +1,7 @@
+envelope.o: envelope.cc /usr/include/stdc-predef.h envelope.h \
+ residdtv-config.h siddtvdefs.h bittrain.h
+/usr/include/stdc-predef.h:
+envelope.h:
+residdtv-config.h:
+siddtvdefs.h:
+bittrain.h:
